@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        .wrap{
+            width: 500px;
+            height: 300px;
+            border: 1px solid #ccc;
+        }
+        #btn{
+            background: #f90;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <h4>有什么新鲜事告诉大家</h4>
+        <p>你还可以输入<b id="num">140</b>个字</p>
+        <textarea id="text" maxlength="140" cols="40" rows="10"></textarea>
+        <button id="btn">发布</button>
+        <ul class="ul" id="ul">
+            <!-- <li>123<button>删除</button></li>
+             <li>123<button>删除</button></li>
+              <li>123<button>删除</button></li> -->
+        </ul>
+    </div>
+  <script src="index.js"></script>
+</body>
+</html>
